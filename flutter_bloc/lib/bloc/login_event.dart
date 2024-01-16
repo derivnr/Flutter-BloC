@@ -23,3 +23,9 @@ class ProsesLogin extends LoginEvent {
   @override
   List<Object> get props => [username, password];
 }
+
+class ProsesLogout extends LoginEvent {
+  const ProsesLogout();
+  @override
+  List<Object> get props => [];
+}
